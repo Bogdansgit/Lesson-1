@@ -1,0 +1,52 @@
+.footer {
+	padding: 80px 0;
+	color: #fff;
+	font-size: 16px;
+	line-height: calc(32 / 16);
+	font-weight: 400;
+	background-color: #b00000;
+
+	.vertical {
+		align-items: start;
+	}
+	
+	.nav-item {
+		margin-bottom: 10px;
+		font-weight: 400;
+		text-align: left;
+	}
+
+	.nav-link {
+		padding-left: 0;
+		padding-right: 0;
+
+		&:hover {
+			color: black;
+
+			&.active {
+				color: #000;
+			}
+		}
+	}
+}
+
+.footer-columns {
+	display: flex;
+}
+
+.f-col {
+	width: 100%;
+
+	&:first-child {
+		width: 170%;
+		padding-right: 15%;
+	}
+}
+
+.icon {
+	height: 13px;
+}
+
+h5 {
+	margin-bottom: 10px;
+}

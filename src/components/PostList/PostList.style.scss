@@ -1,0 +1,18 @@
+.postList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	word-wrap: break-word;
+
+	li {
+		display: inline-block;
+		width: 250px;
+		padding: 20px;
+		margin: 10px;
+		background-color: rgb(218, 218, 218);
+		border: 1px solid rgb(90, 89, 89);
+		border-radius: 10px;
+	}
+}

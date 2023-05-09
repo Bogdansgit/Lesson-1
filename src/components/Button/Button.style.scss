@@ -1,0 +1,36 @@
+.btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 160px;
+	color: #fff;
+	padding: 10px 13px;
+	background-color: #b00000;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #b00000;
+	transition: all 0.5s;
+	cursor: pointer;
+
+	
+	&:hover {
+		border: 1px solid #b00000;
+		background-color: white;
+		color: #b00000;
+	}
+}
+
+.dark {
+	color: #000;
+	background-color: inherit;
+	border: 1px solid #000;
+	
+	&:hover {
+		border: 1px solid #000;
+		background-color: #000;
+		color: #fff;
+	}
+}

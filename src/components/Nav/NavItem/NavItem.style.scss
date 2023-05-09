@@ -1,0 +1,29 @@
+.nav-item {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-link {
+	position: relative;
+	padding: 5px 15px;
+
+	&::after {
+		position: absolute;
+		content: '';
+		bottom: 0;
+		left: 20px;
+		right: 20px;
+		height: 2px;
+		background-color: #b00000;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	&.active {
+
+		&::after {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
